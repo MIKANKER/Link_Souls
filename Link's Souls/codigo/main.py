@@ -7,7 +7,7 @@ class Game:
 
 		# setup general
 		pygame.init()
-		icono = pygame.image.load('graphics/icono/icono.png')
+		icono = pygame.image.load('../graphics/icono/icono.png')
 		pygame.display.set_icon(icono)
 		self.screen = pygame.display.set_mode((WIDTH,HEIGTH))
 		pygame.display.set_caption("Link'Souls")
